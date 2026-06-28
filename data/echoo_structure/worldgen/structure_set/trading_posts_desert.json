@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "echoo_structure:trading_post_desert",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 12,
+    "salt": 0
+  }
+}
