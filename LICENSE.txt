@@ -1,13 +1,1 @@
-# Echoo's Structures - Rules and Terms of Use
-Copyright (c) EchooWorks 
-
-I made this project for people to enjoy, learn from, and share. By downloading or looking at this code, you agree to follow these 6 rules:
-
-1. NO REDISTRIBUTION. Do not re-upload, or mirror this project on other sites in any way. All downloads must come from official Curseforge and Modrinth pages.
-2. NO PROFITING. Do not lock this project behind a paywall or charge money for it, or make money off this project in any way. The only exceptions to this are the conditions laid out in rules 3 and 4.
-3. MODPACKS AND SERVERS. You are free to use this project in modpacks and on servers as long as said modpacks and servers are free to access. You may profit from modpacks and servers that use this project.
-4. CONTENT CREATION. You may make videos on this project and include it in any livestreams, videos, or shorts and may make ad revenue from said content. Please give credit to the project though.
-5. MODIFICATIONS. You may fork and modify the project code in any way you like, but you may not re-upload your modification or share it publicly. If you develop a new feature or fix a bug and want to share it, please send it to me privately.
-6. BACK UP WORLDS BEFORE USING. This project is provided "as is". I am not responsible if this project breaks or corrupts your world. If you find a bug feel free to tell me.
-
-These rules apply to all versions of Echoo's Structures, including mod and datapack versions.
+ALL RIGHTS RESERVED
