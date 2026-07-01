@@ -1,0 +1,15 @@
+{
+	"name": "echoo_structure:trading_post_pool_snowy",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:trading_post/snowy/trading_post_snowy_white",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

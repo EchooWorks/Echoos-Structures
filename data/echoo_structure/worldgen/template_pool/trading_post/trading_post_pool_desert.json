@@ -1,0 +1,35 @@
+{
+	"name": "echoo_structure:trading_post_pool_desert",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:trading_post/desert/trading_post_desert_white",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:trading_post/desert/trading_post_desert_green",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:trading_post/desert/trading_post_desert_pink",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }	
+  ]
+}

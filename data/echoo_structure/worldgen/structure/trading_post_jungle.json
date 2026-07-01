@@ -4,7 +4,7 @@
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
-  "start_pool": "echoo_structure:trading_post_pool_jungle",
+  "start_pool": "echoo_structure:trading_post/trading_post_pool_jungle",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",

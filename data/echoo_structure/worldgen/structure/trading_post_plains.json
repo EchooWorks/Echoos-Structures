@@ -1,14 +1,14 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
-	"minecraft:taiga",
-	"minecraft:old_growth_pine_taiga",
-	"minecraft:old_growth_spruce_taiga"
-	],
+	"minecraft:plains",
+	"minecraft:sunflower_plains",
+	"minecraft:meadow"
+  ],
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
-  "start_pool": "echoo_structure:trading_post/trading_post_pool_taiga",
+  "start_pool": "echoo_structure:trading_post/trading_post_pool_plains",
   "size": 1,
   "start_height": {
     "type": "minecraft:constant",

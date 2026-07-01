@@ -1,0 +1,17 @@
+{
+	"replace": false,
+	"values": [
+	"echoo_structure:trading_post_badlands",
+	"echoo_structure:trading_post_birch_forest",
+	"echoo_structure:trading_post_cherry",
+	"echoo_structure:trading_post_dark_forest",
+	"echoo_structure:trading_post_desert",
+	"echoo_structure:trading_post_forest",
+	"echoo_structure:trading_post_jungle",
+	"echoo_structure:trading_post_pale_garden",
+	"echoo_structure:trading_post_plains",
+	"echoo_structure:trading_post_savanna",
+	"echoo_structure:trading_post_snowy",
+	"echoo_structure:trading_post_taiga"
+	]
+}
