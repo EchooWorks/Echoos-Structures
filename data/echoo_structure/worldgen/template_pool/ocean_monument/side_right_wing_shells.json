@@ -1,0 +1,15 @@
+{
+	"name": "echoo_structure:side_right_wing_shells",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:ocean_monument/side_right_wing_shells/side_wing_right_shell",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }	
+  ]
+}
