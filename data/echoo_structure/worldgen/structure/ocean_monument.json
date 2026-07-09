@@ -9,7 +9,7 @@
   "step": "surface_structures",
   "spawn_overrides": {},
   "max_depth": 7,
-  "start_pool": "echoo_structure:ocean_monument/right_core_shells",
+  "start_pool": "echoo_structure:ocean_monument/floors/core_right",
   "size": 8,
   "start_height": {
     "type": "minecraft:constant",
