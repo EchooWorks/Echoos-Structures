@@ -1,0 +1,110 @@
+{
+  "spawn_range": 7,
+  "total_mobs": 1,
+  "total_mobs_added_per_player": 0,
+  "simultaneous_mobs": 1,
+  "simultaneous_mobs_added_per_player": 0,
+  "ticks_between_spawn": 20,
+  "spawn_potentials": [
+    {
+      "weight": 0,
+      "data": {
+        "entity": {
+          "id": "minecraft:drowned",
+          "OnGround": true,
+          "attributes": [
+            {
+              "id": "minecraft:scale",
+              "base": 1.5
+            }
+          ],
+          "equipment": {
+            "mainhand": {
+              "id": "minecraft:trident",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:loyalty": 1,
+                  "minecraft:unbreaking": 3,
+                  "minecraft:impaling": 2
+                }
+              },
+              "count": 3
+            },
+            "offhand": {
+              "id": "minecraft:conduit",
+              "components": {
+                "minecraft:enchantment_glint_override": true
+              },
+              "count": 1
+            },
+            "head": {
+              "id": "minecraft:iron_helmet",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:tide"
+                },
+                "minecraft:enchantments": {
+                  "minecraft:protection": 2,
+                  "minecraft:unbreaking": 3
+                }
+              },
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:iron_chestplate",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:tide"
+                },
+                "minecraft:enchantments": {
+                  "minecraft:protection": 2,
+                  "minecraft:unbreaking": 3
+                }
+              }
+            },
+            "legs": {
+              "id": "minecraft:iron_leggings",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:tide"
+                },
+                "minecraft:enchantments": {
+                  "minecraft:protection": 2,
+                  "minecraft:unbreaking": 3
+                }
+              }
+            },
+            "feet": {
+              "id": "iron_boots",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:tide"
+                },
+                "minecraft:enchantments": {
+                  "minecraft:protection": 2,
+                  "minecraft:unbreaking": 3
+                }
+              }
+            }
+          },
+          "drop_chances": {
+            "mainhand": 0.05,
+            "offhand": 1,
+            "head": 0.05,
+            "chest": 0.05,
+            "legs": 0.05,
+            "feet": 0.05
+          },
+          "CanPickUpLoot": true,
+          "PersistenceRequired": false,
+          "IsBaby": false,
+          "CanBreakDoors": true
+        }
+      }
+    }
+  ]
+}
