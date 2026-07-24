@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:guardian,tag=monument] unless predicate echoo_structure:passenger_check run kill @s

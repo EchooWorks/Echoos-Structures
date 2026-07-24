@@ -30,10 +30,19 @@
       }
     },
 	{
-      "weight": 2,
+      "weight": 25,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:ocean_monument/loot/chest_empty",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+	},
+	{
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:ocean_monument/loot/pot1",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }

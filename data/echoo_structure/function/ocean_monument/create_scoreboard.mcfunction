@@ -1,0 +1,4 @@
+
+scoreboard objectives add ocean_monument_health dummy
+scoreboard objectives add ocean_monument_state dummy
+scoreboard objectives add ocean_monument_found dummy
