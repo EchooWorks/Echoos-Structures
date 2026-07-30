@@ -1,0 +1,57 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "echoo_structure:chests/ocean_monument/ominous_key"
+    }
+  ],
+  "spawn_range": 7,
+  "total_mobs": 1,
+  "total_mobs_added_per_player": 0,
+  "simultaneous_mobs": 1,
+  "simultaneous_mobs_added_per_player": 0,
+  "ticks_between_spawn": 20,
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:drowned",
+          "CustomName": {
+            "text": "Elite Elder Drowned"
+          },
+          "CustomNameVisible": false,
+          "Tags": [
+            "drowned_miniboss"
+          ],
+          "Health": 100,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 100
+            },
+            {
+              "id": "minecraft:scale",
+              "base": 1.5
+            }
+          ],
+          "Team": "hidden_name",
+          "drop_chances": {
+            "mainhand": 0.02,
+            "offhand": 1,
+            "head": 0.02,
+            "chest": 0.02,
+            "legs": 0.02,
+            "feet": 0.02
+          },
+          "PersistenceRequired": true,
+          "IsBaby": false
+        },
+        "equipment": {
+          "loot_table": "echoo_structure:equipment/ocean_monument/miniboss_equipment_ominous",
+          "slot_drop_chances": 0
+        }
+      }
+    }
+  ]
+}

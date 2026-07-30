@@ -1,0 +1,20 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "minecraft:equipment": {
+      "mainhand": {
+        "items": "minecraft:prismarine_shard",
+        "components": {
+          "minecraft:item_model": "echoo_structure:prismarine_core",
+          "minecraft:item_name": "Prismarine Core"
+        }
+      }
+    },
+    "minecraft:type_specific/player": {
+      "input": {
+        "sneak": true
+      }
+    }
+  }
+}

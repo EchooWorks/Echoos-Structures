@@ -1,0 +1,2 @@
+execute as @e[tag=ocean_monument] unless score @s monument_curse_active matches 0..2 run scoreboard players set @s monument_curse_active 3
+execute as @e[tag=monument_alter] unless score @s monument_alter_state matches 1 run scoreboard players set @s monument_alter_state 0

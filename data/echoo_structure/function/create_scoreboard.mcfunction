@@ -1,0 +1,3 @@
+
+scoreboard objectives add monument_curse_active dummy
+scoreboard objectives add monument_alter_state dummy
