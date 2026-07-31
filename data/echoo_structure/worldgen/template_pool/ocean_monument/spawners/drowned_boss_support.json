@@ -1,12 +1,12 @@
 {
-	"name": "echoo_structure:drowned_boss",
+	"name": "echoo_structure:drowned_boss_support",
   "fallback": "minecraft:empty",
   "elements": [
 	{
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:ocean_monument/spawners/drowned_miniboss1",
+        "location": "echoo_structure:ocean_monument/spawners/boss_support1",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
@@ -15,7 +15,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:ocean_monument/spawners/drowned_miniboss2",
+        "location": "echoo_structure:ocean_monument/spawners/boss_support2",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
@@ -24,7 +24,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:ocean_monument/spawners/drowned_miniboss3",
+        "location": "echoo_structure:ocean_monument/spawners/boss_support3",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
