@@ -1,0 +1,74 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "echoo_structure:chests/ocean_monument/key"
+    }
+  ],
+  "spawn_range": 7,
+  "total_mobs": 2,
+  "total_mobs_added_per_player": 1,
+  "simultaneous_mobs": 1,
+  "simultaneous_mobs_added_per_player": 1,
+  "ticks_between_spawn": 100,
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:zombie_nautilus",
+          "CustomName": {
+            "text": "Prismarine Nautilus"
+          },
+          "CustomNameVisible": false,
+          "Tags": [
+            "prismarine_nautilus"
+          ],
+          "Health": 40,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 40
+            }
+          ],
+          "Team": "hidden_name",
+          "PersistenceRequired": true,
+          "IsBaby": false,
+		  "variant": "echoo_structure:prismarine",
+		  "DeathLootTable": "echoo_structure:entities/prismarine_nautilus",
+		  "Passengers": [
+			{
+				"id": "minecraft:guardian",
+				"CustomName": {
+					"text": "Prismarine Nautilus"
+				},
+				"Tags": [
+					"monument",
+					"prismarine_nautilus_passenger"
+				],
+				"Silent": true,
+				"Invulnerable": true,
+				"CustomNameVisible": false,
+				"Team" : "hidden_name",
+				"attributes" : [
+					{
+						"id": "minecraft:scale",
+						"base": 0.1
+					}
+				],
+				"PersistenceRequired": true,
+				"active_effects": [
+					{
+						"id": "minecraft:invisibility",
+						"amplifier": 1,
+						"duration": -1,
+						"show_particles": false
+					}
+				]
+			}
+		]
+        }
+      }
+    }
+  ]
+}
