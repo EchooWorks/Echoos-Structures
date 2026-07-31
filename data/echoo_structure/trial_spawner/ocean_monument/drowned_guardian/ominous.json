@@ -1,0 +1,84 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "echoo_structure:chests/ocean_monument/key"
+    }
+  ],
+  "spawn_range": 7,
+  "total_mobs": 4,
+  "total_mobs_added_per_player": 1,
+  "simultaneous_mobs": 2,
+  "simultaneous_mobs_added_per_player": 1,
+  "ticks_between_spawn": 100,
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:drowned",
+          "CustomName": {
+            "text": "Drowned Guardian"
+          },
+          "CustomNameVisible": false,
+          "Tags": [
+            "drowned_guardian"
+          ],
+          "Health": 50,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 50
+            }
+          ],
+          "Team": "hidden_name",
+          "drop_chances": {
+            "mainhand": 0.02,
+            "offhand": 1,
+            "head": 0.02,
+            "chest": 0.02,
+            "legs": 0.02,
+            "feet": 0.02
+          },
+          "PersistenceRequired": true,
+          "IsBaby": false,
+		  "Passengers": [
+			{
+				"id": "minecraft:guardian",
+				"CustomName": {
+					"text": "Drowned Guardian"
+				},
+				"Tags": [
+					"monument",
+					"drowned_guardian_passenger"
+				],
+				"Silent": true,
+				"Invulnerable": true,
+				"CustomNameVisible": false,
+				"Team" : "hidden_name",
+				"attributes" : [
+					{
+						"id": "minecraft:scale",
+						"base": 0.1
+					}
+				],
+				"PersistenceRequired": true,
+				"active_effects": [
+					{
+						"id": "minecraft:invisibility",
+						"amplifier": 1,
+						"duration": -1,
+						"show_particles": false
+					}
+				]
+			}
+		]
+        },
+        "equipment": {
+          "loot_table": "echoo_structure:equipment/ocean_monument/drowned_guardian_equipment",
+          "slot_drop_chances": 0
+        }
+      }
+    }
+  ]
+}

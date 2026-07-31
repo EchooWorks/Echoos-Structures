@@ -1,0 +1,116 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "echoo_structure:chests/ocean_monument/key"
+    }
+  ],
+  "spawn_range": 7,
+  "total_mobs": 2,
+  "total_mobs_added_per_player": 0.5,
+  "simultaneous_mobs": 1,
+  "simultaneous_mobs_added_per_player": 0.5,
+  "ticks_between_spawn": 20,
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:zombie_nautilus",
+          "CustomName": {
+            "text": "Prismarine Nautilus"
+          },
+          "CustomNameVisible": false,
+          "Tags": [
+            "drowned_rider_mount"
+          ],
+          "Health": 20,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 20
+            }
+          ],
+          "Team": "hidden_name",
+          "PersistenceRequired": true,
+          "IsBaby": false,
+		  "variant": "echoo_structure:prismarine",
+		  "DeathLootTable": "echoo_structure:entities/prismarine_nautilus",
+		  "Passengers": [
+			{
+				"id": "minecraft:drowned",
+				"CustomName": {
+					"text": "Drowned Rider"
+				},
+				"IsBaby": true,
+				"CustomNameVisible": false,
+				"Team": "hidden_name",
+				"Health": 20,
+				"attributes": [
+					{
+						"id": "minecraft:max_health",
+						"base": 20
+					},
+					{
+						"id": "minecraft:attack_knockback",
+						"base": 2.5
+					},
+					{
+						"id": "minecraft:attack_damage",
+						"base": 0.1
+					}
+				],
+				"equipment": {
+					"mainhand": {
+						"id": "minecraft:copper_spear",
+						"components": {
+							"minecraft:enchantments": {
+								"unbreaking": 3
+							}
+						}
+					},
+					"head": {
+						"id": "minecraft:copper_helmet",
+						"components": {
+							"minecraft:enchantments": {
+								"unbreaking": 3,
+								"thorns": 1
+							}
+						}
+					},
+					"chest": {
+						"id": "minecraft:copper_chestplate",
+						"components": {
+							"minecraft:enchantments": {
+								"unbreaking": 3,
+								"thorns": 1
+							}
+						}
+					},
+					"legs": {
+						"id": "minecraft:copper_leggings",
+						"components": {
+							"minecraft:enchantments": {
+								"unbreaking": 3,
+								"thorns": 1
+							}
+						}
+					},
+					"feet": {
+						"id": "minecraft:copper_boots",
+						"components": {
+							"minecraft:enchantments": {
+								"unbreaking": 3,
+								"thorns": 1
+							}
+						}
+					}
+				}
+				
+			}
+		  ]
+        }
+      }
+    }
+  ]
+}
