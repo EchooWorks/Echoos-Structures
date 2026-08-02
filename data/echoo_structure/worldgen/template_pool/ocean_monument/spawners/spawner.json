@@ -1,12 +1,12 @@
 {
-	"name": "echoo_structure:pedestals",
+	"name": "echoo_structure:spawner",
   "fallback": "minecraft:empty",
   "elements": [
 	{
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:ocean_monument/spawners/drowned_rider_pedestal",
+        "location": "echoo_structure:ocean_monument/spawners/drowned_rider",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
@@ -15,7 +15,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:ocean_monument/spawners/drowned_mage_pedestal",
+        "location": "echoo_structure:ocean_monument/spawners/drowned_mage",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
@@ -24,7 +24,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:ocean_monument/spawners/drowned_guard_pedestal",
+        "location": "echoo_structure:ocean_monument/spawners/drowned_guard",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
@@ -33,7 +33,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:ocean_monument/spawners/drowned_guardian_pedestal",
+        "location": "echoo_structure:ocean_monument/spawners/drowned_guardian",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
@@ -42,7 +42,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:ocean_monument/spawners/prismarine_nautilus_pedestal",
+        "location": "echoo_structure:ocean_monument/spawners/prismarine_nautilus",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
@@ -51,7 +51,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:ocean_monument/spawners/drowned_golem_pedestal",
+        "location": "echoo_structure:ocean_monument/spawners/drowned_golem",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
