@@ -12,18 +12,35 @@
 		{
 			"type":"loot_table",
 			"weight": 1,
-			"value": "echoo_structure:chests/ocean_monument/keys/ominous_elder_key"
+			"value": "echoo_structure:chests/ocean_monument/keys/elder_key"
+		}
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+		{
+			"type":"loot_table",
+			"weight": 2,
+			"value": "echoo_structure:chests/ocean_monument/potions/potions"
+		},
+		{
+			"type": "empty",
+			"weight": 1
 		}
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+		  "min": 2,
+		  "max": 3
+	  },
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "loot_table",
           "weight": 1,
-          "value": "echoo_structure:chests/ocean_monument/food"
+          "value": "echoo_structure:chests/ocean_monument/food_rare"
         }
       ]
     },

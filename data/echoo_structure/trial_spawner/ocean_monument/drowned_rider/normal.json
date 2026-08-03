@@ -2,7 +2,7 @@
   "loot_tables_to_eject": [
     {
       "weight": 1,
-      "data": "echoo_structure:chests/ocean_monument/key"
+      "data": "echoo_structure:chests/ocean_monument/trial_spawners/halls_normal"
     }
   ],
   "spawn_range": 7,

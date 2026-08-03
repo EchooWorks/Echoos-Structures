@@ -16,13 +16,13 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": 2,
       "bonus_rolls": 0,
       "entries": [
         {
           "type": "loot_table",
           "weight": 1,
-          "value": "echoo_structure:chests/ocean_monument/food"
+          "value": "echoo_structure:chests/ocean_monument/food_rare"
         }
       ]
     },
