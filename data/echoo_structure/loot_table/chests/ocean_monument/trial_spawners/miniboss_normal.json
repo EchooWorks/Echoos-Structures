@@ -7,12 +7,12 @@
         {
           "type": "loot_table",
           "weight": 1,
-          "value": "echoo_structure:chests/ocean_monument/prismarine_core"
+          "value": "echoo_structure:chests/ocean_monument/keys/prismarine_core"
         },
 		{
 			"type":"loot_table",
 			"weight": 1,
-			"value": "echoo_structure:chests/ocean_monument/key"
+			"value": "echoo_structure:chests/ocean_monument/keys/elder_key"
 		}
       ]
     },

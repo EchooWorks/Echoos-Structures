@@ -33,7 +33,7 @@
               "function": "set_count",
               "count": 1
             },
-            {t
+            {
               "function": "set_components",
               "components": {
                 "minecraft:stored_enchantments": {

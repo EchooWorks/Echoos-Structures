@@ -88,6 +88,15 @@
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:ocean_monument/spawners/hall_vault_ominous",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }

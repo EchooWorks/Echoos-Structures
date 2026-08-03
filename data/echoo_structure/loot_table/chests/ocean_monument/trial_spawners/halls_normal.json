@@ -5,14 +5,13 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "weight": 1,
-          "value": "echoo_structure:chests/ocean_monument/keys/prismarine_core"
+          "type": "empty",
+          "weight": 4
         },
 		{
 			"type":"loot_table",
 			"weight": 1,
-			"value": "echoo_structure:chests/ocean_monument/keys/ominous_elder_key"
+			"value": "echoo_structure:chests/ocean_monument/keys/prismarine_key"
 		}
       ]
     },

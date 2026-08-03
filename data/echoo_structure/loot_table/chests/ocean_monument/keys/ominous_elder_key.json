@@ -17,15 +17,14 @@
             {
               "function": "set_components",
               "components": {
-                "minecraft:item_model": "echoo_structure:monument_key"
+                "minecraft:item_model": "echoo_structure:ominous_elder_key"
               }
             },
             {
               "function": "set_name",
               "name": [
                 {
-                  "color": "aqua",
-                  "text": "Oceanic Key"
+                  "text": "Ominous Elder Key"
                 }
               ],
               "target": "item_name"
