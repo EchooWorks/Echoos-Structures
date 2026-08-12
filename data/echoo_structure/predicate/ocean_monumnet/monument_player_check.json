@@ -5,7 +5,7 @@
     "minecraft:distance": {
       "absolute": {
         "min": 0,
-        "max": 60
+        "max": 75
       }
     }
   }
