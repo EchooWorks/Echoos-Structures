@@ -52,6 +52,7 @@
 					"monument",
 					"drowned_guardian_passenger"
 				],
+				"DeathLootTable": "minecraft:empty",
 				"Silent": true,
 				"Invulnerable": true,
 				"CustomNameVisible": false,

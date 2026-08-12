@@ -46,6 +46,7 @@
 					"monument",
 					"prismarine_nautilus_passenger"
 				],
+				"DeathLootTable": "minecraft:empty",
 				"Silent": true,
 				"Invulnerable": true,
 				"CustomNameVisible": false,
