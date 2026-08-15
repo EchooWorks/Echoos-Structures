@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:rotten_flesh",
+      "components": {
+        "minecraft:item_model": "echoo_structure:prismarine_flesh"
+      }
+    },
+    "title": "Tasts like Prismarine",
+    "description": "Eat Prismarine Flesh. Ymmuy....",
+    "frame": "task"
+  },
+  "parent": "adventure/the_monument",
+  "criteria": {
+    "ate_prismarine_flesh": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:rotten_flesh",
+          "count": 1,
+          "components": {
+            "minecraft:item_model": "echoo_structure:prismarine_flesh",
+            "minecraft:item_name": "Prismarine Flesh"
+          }
+        }
+      }
+    }
+  }
+}

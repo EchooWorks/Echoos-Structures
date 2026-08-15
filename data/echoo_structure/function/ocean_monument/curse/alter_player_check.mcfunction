@@ -1,1 +1,1 @@
-execute as @e[tag=monument_alter,scores={monument_alter_state=0}] at @s if entity @a[distance=..5,predicate=echoo_structure:ocean_monumnet/holding_prismarine_core] run function echoo_structure:ocean_monument/curse/alter_activate
+execute as @e[tag=monument_alter,scores={monument_alter_state=0}] at @s if entity @a[distance=..1,predicate=echoo_structure:ocean_monumnet/holding_prismarine_core] as @s run function echoo_structure:ocean_monument/curse/alter_activate

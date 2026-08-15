@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:prismarine_shard",
+      "components": {
+        "minecraft:item_model": "echoo_structure:prismarine_core"
+      }
+    },
+    "title": "The Ocean's Core",
+    "description": "Obtain a Prismarine Core",
+    "frame": "goal"
+  },
+  "parent": "adventure/cursed_by_monument",
+  "criteria": {
+    "obtain_prismarine_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:prismarine_shard",
+            "count": 1,
+            "components": {
+              "minecraft:item_model": "echoo_structure:prismarine_core",
+              "minecraft:item_name": "Prismarine Core",
+              "minecraft:rarity": "rare"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

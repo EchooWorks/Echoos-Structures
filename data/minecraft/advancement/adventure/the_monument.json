@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "the_monument": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:location": {
+                "structures": "echoo_structure:ocean_monument"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": 
+      "Enter an Ocean Monument",
+    "icon": {
+      "id": "minecraft:prismarine_bricks"
+    },
+    "title": "The Temple of the Depths"
+  },
+  "requirements": [
+    [
+      "the_monument"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
