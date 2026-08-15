@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/nether_fortress",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "max_depth": 3,
+  "start_pool": "echoo_structure:nether_fortress/base/starts",
+  "size": 3,
+  "start_height": {
+    "type": "minecraft:constant",
+    "value": {
+      "absolute": 10
+    }
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

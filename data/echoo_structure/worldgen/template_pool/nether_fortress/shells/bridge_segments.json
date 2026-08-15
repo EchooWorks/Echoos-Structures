@@ -1,0 +1,66 @@
+{
+	"name": "echoo_structure:bridge_segments",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/shells/bridge_segment_6",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/shells/bridge_segment_12",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/shells/bridge_segment_18",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/shells/bridge_segment_24",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/shells/bridge_segment_30",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/shells/bridge_segment_36",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}
