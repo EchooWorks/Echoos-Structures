@@ -3,9 +3,9 @@
   "biomes": "#minecraft:has_structure/nether_fortress",
   "step": "surface_structures",
   "spawn_overrides": {},
-  "max_depth": 3,
-  "start_pool": "echoo_structure:nether_fortress/base/starts",
-  "size": 3,
+  "max_depth": 16,
+  "start_pool": "echoo_structure:nether_fortress/thick_pillar_start",
+  "size": 16,
   "start_height": {
     "type": "minecraft:constant",
     "value": {
