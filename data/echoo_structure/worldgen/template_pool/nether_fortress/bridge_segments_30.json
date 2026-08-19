@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
 	{
-      "weight": 3,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:nether_fortress/bridges/bridge_segment_30",
@@ -21,7 +21,7 @@
       }
     },
 	{
-      "weight": 3,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:nether_fortress/bridges/stairs1_30",
@@ -30,10 +30,46 @@
       }
     },
 	{
-      "weight": 3,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:nether_fortress/bridges/stairs_down1_30",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/bridges/left_turn_bridge1_30",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/bridges/right_turn_bridge1_30",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/bridges/3way_bridge1_30",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/bridges/4way_bridge1_30",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }

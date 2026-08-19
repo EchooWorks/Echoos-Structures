@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
 	{
-      "weight": 3,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:nether_fortress/rooms/bridge_segment_6",
@@ -21,7 +21,7 @@
       }
     },
 	{
-      "weight": 3,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:nether_fortress/rooms/room1_6",
@@ -30,10 +30,37 @@
       }
     },
 	{
-      "weight": 3,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:nether_fortress/rooms/stairs1_6",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/rooms/left_turn_room1_6",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/rooms/right_turn_room1_6",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/rooms/blaze_spawner1_6",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
