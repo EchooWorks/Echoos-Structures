@@ -9,6 +9,14 @@
     "tame": "echoo_structure:wither_hound_tame_baby",
     "wild": "echoo_structure:wither_hound_baby"
   },
-  "spawn_conditions": []
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "echoo_structure:nether_fortress"
+      },
+      "priority": 1
+    }
+  ]
 }
 
