@@ -1,0 +1,14 @@
+{
+  "assets": {
+    "angry": "echoo_structure:wither_hound_angry",
+    "tame": "echoo_structure:wither_hound_tame",
+    "wild": "echoo_structure:wither_hound"
+  },
+  "baby_assets": {
+    "angry": "echoo_structure:wither_hound_angry_baby",
+    "tame": "echoo_structure:wither_hound_tame_baby",
+    "wild": "echoo_structure:wither_hound_baby"
+  },
+  "spawn_conditions": []
+}
+
