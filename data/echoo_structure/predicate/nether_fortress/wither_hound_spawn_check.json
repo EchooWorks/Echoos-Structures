@@ -1,0 +1,17 @@
+[
+  {
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "structures": "echoo_structure:nether_fortress"
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:random_chance",
+    "chance": 0.25
+  }
+]

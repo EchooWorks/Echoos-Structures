@@ -3,6 +3,7 @@
     "echoo_structure:create_scoreboard",
 	"echoo_structure:hide_custom_names",
 	"echoo_structure:ocean_monument/mobs/mage/mage_tick",
-	"echoo_structure:ocean_monument/curse/curse"
+	"echoo_structure:ocean_monument/curse/curse",
+	"echoo_structure:nether_fortress/spawn_wither_hound"
   ]
 }

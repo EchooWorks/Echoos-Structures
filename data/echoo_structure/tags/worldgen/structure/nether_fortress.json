@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+	"echoo_structure:nether_fortress",
+	"minecraft:fortress"
+	]
+}
