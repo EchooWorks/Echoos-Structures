@@ -2,6 +2,7 @@
   "values": [
     "echoo_structure:ocean_monument/mobs/kill_guardian_passengers",
 	"echoo_structure:ocean_monument/curse/curse_defualt_state",
-	"echoo_structure:ocean_monument/curse/alter_player_check"
+	"echoo_structure:ocean_monument/curse/alter_player_check",
+	"echoo_structure:entity/wither_hound/wither_hound_tick"
   ]
 }

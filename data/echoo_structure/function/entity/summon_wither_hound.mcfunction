@@ -1,1 +1,0 @@
-summon minecraft:wolf ~5 ~ ~5 {variant:"echoo_structure:wither_hound",Tags:["wither_hound"],CustomName:"Wither Hound",Team:"hidden_name",attributes:[{id:"minecraft:scale",base:1.5}],AngerTime:2147483647}

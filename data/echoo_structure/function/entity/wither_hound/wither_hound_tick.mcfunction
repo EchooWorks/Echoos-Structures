@@ -1,0 +1,1 @@
+execute as @e[tag=wither_hound] run function echoo_structure:entity/wither_hound/wither_hound_behavior
