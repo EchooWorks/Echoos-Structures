@@ -1,0 +1,21 @@
+{
+	"name": "echoo_structure:loot_chests",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/loot_chest",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	{
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

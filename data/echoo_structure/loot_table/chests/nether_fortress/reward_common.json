@@ -1,0 +1,94 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		  "min": 2,
+		  "max": 3
+	  },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 6
+			  }
+            }
+          ]
+        }, 
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 4
+			  }
+            }
+          ]
+        },     		
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crying_obsidian",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:nether_wart",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:magma_cream",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/nether_fortress/equipment_common",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }	
+      ]
+    }
+  ]
+}

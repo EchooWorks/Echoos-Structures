@@ -73,6 +73,15 @@
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:nether_fortress/rooms/nether_wart_garden1_12",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
   ]
 }
