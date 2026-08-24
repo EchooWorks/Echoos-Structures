@@ -1,2 +1,2 @@
-execute as @a at @s if predicate echoo_structure:nether_fortress/wither_hound_spawn_check run execute at @e[distance=5..20,tag=wither_hound_spawner,sort=nearest,limit=3] run function echoo_structure:entity/wither_hound/summon_wither_hound
+execute as @a at @s if predicate echoo_structure:nether_fortress/wither_hound_spawn_check run execute at @e[distance=5..20,tag=wither_hound_spawner,sort=nearest,limit=2] run function echoo_structure:entity/wither_hound/summon_wither_hound
 schedule function echoo_structure:nether_fortress/spawn_wither_hound 25s replace

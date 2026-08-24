@@ -28,7 +28,7 @@
         },     		
 		{
           "type": "item",
-          "weight": 1,
+          "weight": 2,
           "name": "minecraft:rib_armor_trim_smithing_template",
           "functions": [
             {
@@ -39,7 +39,7 @@
         },
 		{
           "type": "loot_table",
-          "weight": 3,
+          "weight": 4,
           "value": "echoo_structure:chests/nether_fortress/enchantments",
           "functions": [
             {
@@ -50,7 +50,7 @@
         },
 		{
           "type": "empty",
-          "weight": 6
+          "weight": 7
         }		
       ]
     }
