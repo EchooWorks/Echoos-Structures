@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "hurt_wither_hound": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "minecraft:entity_tags": {
+            "all_of": [
+              "wither_hound"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "echoo_structure:entity/wither_hound/wither_hound_hurt"
+  }
+}
