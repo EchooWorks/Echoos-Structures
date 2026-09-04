@@ -3,39 +3,30 @@
   "fallback": "minecraft:empty",
   "elements": [
 	{
-      "weight": 3,
+      "weight": 7,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:abandoned_mineshaft/oak/tunnels/tunnel1",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "echoo_structure:mineshafts"
       }
     },
 	{
-      "weight": 3,
+      "weight": 7,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:abandoned_mineshaft/oak/tunnels/tunnel2",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "echoo_structure:mineshafts"
       }
     },
 	{
-      "weight": 3,
+      "weight": 7,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:abandoned_mineshaft/oak/tunnels/tunnel3",
         "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },
-	{
-      "weight": 6,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "echoo_structure:abandoned_mineshaft/oak/tunnels/tunnel4",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "echoo_structure:mineshafts"
       }
     },
 	{
@@ -44,7 +35,7 @@
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:abandoned_mineshaft/oak/tunnels/cave_spider_tunnel",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "echoo_structure:mineshafts"
       }
     },
 	{
@@ -53,7 +44,7 @@
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:abandoned_mineshaft/oak/tunnels/spider_tunnel",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "echoo_structure:mineshafts"
       }
     }
   ]

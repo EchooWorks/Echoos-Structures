@@ -1,0 +1,59 @@
+[
+  {
+    "processor_type": "minecraft:rule",
+    "rules": [
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:torch",
+          "probability": 0.95
+        },
+        "output_state": {
+          "Name": "minecraft:air"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:wall_torch",
+          "probability": 0.95
+        },
+        "output_state": {
+          "Name": "minecraft:air"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:rail",
+          "probability": 0.15
+        },
+        "output_state": {
+          "Name": "air"
+        }
+      },
+      {
+        "location_predicate": {
+          "predicate_type": "minecraft:always_true"
+        },
+        "input_predicate": {
+          "predicate_type": "minecraft:random_block_match",
+          "block": "minecraft:lantern",
+          "probability": 0.95
+        },
+        "output_state": {
+          "Name": "minecraft:air"
+        }
+      }
+    ]
+  }
+]

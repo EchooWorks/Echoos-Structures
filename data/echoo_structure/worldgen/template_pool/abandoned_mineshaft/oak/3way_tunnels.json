@@ -8,7 +8,25 @@
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:abandoned_mineshaft/oak/tunnels/3way_tunnel1",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "echoo_structure:mineshafts"
+      }
+    },
+	{
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/oak/tunnels/3way_tunnel2",
+        "projection": "rigid",
+        "processors": "echoo_structure:mineshafts"
+      }
+    },
+	{
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/oak/tunnels/3way_tunnel3",
+        "projection": "rigid",
+        "processors": "echoo_structure:mineshafts"
       }
     }
   ]

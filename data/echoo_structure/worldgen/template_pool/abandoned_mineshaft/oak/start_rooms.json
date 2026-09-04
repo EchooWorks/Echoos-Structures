@@ -8,7 +8,7 @@
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:abandoned_mineshaft/oak/rooms/start_room1",
         "projection": "rigid",
-        "processors": "minecraft:empty"
+        "processors": "echoo_structure:mineshafts"
       }
     }
   ]
