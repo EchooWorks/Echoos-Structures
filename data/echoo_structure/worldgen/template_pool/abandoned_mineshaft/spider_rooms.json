@@ -1,0 +1,42 @@
+{
+	"name": "echoo_structure:spider_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/spider_rooms/spider_room_floor",
+        "projection": "rigid",
+        "processors": "echoo_structure:spider_room_spawners"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/spider_rooms/spider_room_hanging",
+        "projection": "rigid",
+        "processors": "echoo_structure:spider_room_spawners"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/spider_rooms/cave_spider_room_floor",
+        "projection": "rigid",
+        "processors": "echoo_structure:spider_room_spawners"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/spider_rooms/cave_spider_room_hanging",
+        "projection": "rigid",
+        "processors": "echoo_structure:spider_room_spawners"
+      }
+    }
+  ]
+}
