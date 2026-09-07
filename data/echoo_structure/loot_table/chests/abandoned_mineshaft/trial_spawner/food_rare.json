@@ -1,0 +1,67 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		  "min": 1,
+		  "max": 2
+	  },
+      "bonus_rolls": {
+		  "min": 0,
+		  "max": 2
+	  },
+      "entries": [
+       {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 3
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:baked_potato",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 3
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:mushroom_stew",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:cake",
+          "functions": [
+				{
+				  "function": "set_count",
+				  "count": 1
+				}
+			]
+        }
+	  ]
+	}	
+  ]
+}

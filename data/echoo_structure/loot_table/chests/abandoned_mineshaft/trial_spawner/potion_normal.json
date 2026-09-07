@@ -1,0 +1,21 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/potion_common"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/potion_uncommon"
+        }
+      ]
+    }
+  ]
+}

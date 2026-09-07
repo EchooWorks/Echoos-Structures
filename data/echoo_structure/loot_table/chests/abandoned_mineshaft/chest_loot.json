@@ -1,0 +1,48 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		  "min": 1,
+		  "max": 2
+	  },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/abandoned_mineshaft/chest_junk"
+        }
+		
+      ]
+    },
+	{
+      "rolls": {
+		  "min": 2,
+		  "max": 4
+	  },
+      "bonus_rolls": {
+		  "min": 0,
+		  "max": 1
+	  },
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 4,
+          "value": "echoo_structure:chests/abandoned_mineshaft/chest_common"
+        },
+		{
+          "type": "loot_table",
+          "weight": 3,
+          "value": "echoo_structure:chests/abandoned_mineshaft/chest_rare"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/abandoned_mineshaft/chest_epic"
+        }
+		
+      ]
+    }
+  ]
+}

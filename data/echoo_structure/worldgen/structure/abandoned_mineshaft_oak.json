@@ -13,12 +13,6 @@
           "weight": 4
         },
         {
-          "type": "minecraft:bogged",
-          "maxCount": 2,
-          "minCount": 1,
-          "weight": 2
-        },
-        {
           "type": "minecraft:skeleton",
           "maxCount": 4,
           "minCount": 1,
@@ -45,10 +39,10 @@
   "start_height": {
     "type": "minecraft:uniform",
     "max_inclusive": {
-      "absolute": 50
+      "absolute": 25
     },
     "min_inclusive": {
-      "absolute": 40
+      "absolute": -15
     }
   },
   "max_distance_from_center": 48,

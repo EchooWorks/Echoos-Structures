@@ -1,0 +1,217 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		  "min": 1,
+		  "max": 5
+	  },
+      "entries": [
+	  {
+          "type": "item",
+          "weight": 5,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 6,
+				  "max": 12
+			  }
+            }
+          ]
+        },
+       {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 4,
+				  "max": 12
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:charcoal",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 6,
+				  "max": 10
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:wheat_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 6,
+				  "max": 12
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:pumpkin_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:beetroot_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:copper_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 3,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 5,
+				  "max": 9
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:melon_seeds",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 6
+			  }
+            }
+          ],
+		  "conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"biomes": "#echoo_structure:has_glow_berries"
+					}
+				}
+			]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 3,
+				  "max": 15
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:cobweb",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 6
+			  }
+            }
+          ]
+        }
+      ]
+    }  
+  ]
+}

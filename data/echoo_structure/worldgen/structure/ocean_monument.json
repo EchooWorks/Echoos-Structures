@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#echoo_structure:has_structure/ocean_monument",
+  "biomes": "#minecraft:has_structure/ocean_monument",
   "step": "surface_structures",
   "spawn_overrides": {},
   "max_depth": 7,

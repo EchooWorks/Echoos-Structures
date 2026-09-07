@@ -39,19 +39,13 @@
       }
     },
 	{
-      "weight": 2,
+      "weight": 1,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "echoo_structure:abandoned_mineshaft/minecarts/minecart",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
-    },
-	{
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:empty_pool_element"
-		}
-	}
+    }
   ]
 }

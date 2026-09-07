@@ -1,0 +1,53 @@
+{
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/undead_miner_normal"
+    }
+  ],
+  "spawn_range": 7,
+  "total_mobs": 5,
+  "total_mobs_added_per_player": 1.5,
+  "simultaneous_mobs": 2,
+  "simultaneous_mobs_added_per_player": 1,
+  "ticks_between_spawn": 40,
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "id": "minecraft:zombie_villager",
+          "CustomName": {
+            "text": "Zombie Miner"
+          },
+          "CustomNameVisible": false,
+          "Tags": [
+            "zombie_miner"
+          ],
+          "Health": 20,
+          "attributes": [
+            {
+              "id": "minecraft:max_health",
+              "base": 40
+            }
+          ],
+          "Team": "hidden_name",
+          "drop_chances": {
+            "mainhand": 0.02,
+            "offhand": 1,
+            "head": 0.02,
+            "chest": 0.02,
+            "legs": 0.02,
+            "feet": 0.02
+          },
+          "PersistenceRequired": true,
+          "IsBaby": false
+        },
+        "equipment": {
+          "loot_table": "echoo_structure:equipment/abandoned_mineshaft/zombie_miner_equipment",
+          "slot_drop_chances": 0
+        }
+      }
+    }
+  ]
+}
