@@ -1,0 +1,143 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		  "min": 1,
+		  "max": 2
+	  },
+      "entries": [
+	  {
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 5
+			  }
+            }
+          ]
+        },
+       {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:experience_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 4,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 4,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:music_disc_13",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:music_disc_cat",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 6,
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 3
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "loot_table",
+          "weight": 4,
+          "value": "echoo_structure:chests/ominous_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:music_disc_bounce",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ],
+		  "conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"biomes": "minecraft:sulfur_caves"
+					}
+				}
+			]
+        }
+      ]
+    }  
+  ]
+}

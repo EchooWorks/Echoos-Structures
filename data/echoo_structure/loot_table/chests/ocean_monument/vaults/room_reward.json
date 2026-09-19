@@ -1,0 +1,50 @@
+{
+  "type": "chest",
+  "pools": [
+	{
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "loot_table",
+          "weight": 4,
+          "value": "echoo_structure:chests/ocean_monument/resources/resource_common"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/ocean_monument/resources/resource_rare"
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "loot_table",
+          "weight": 2,
+          "value": "echoo_structure:chests/ocean_monument/potions/potions"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+		  "value": "echoo_structure:chests/ominous_bottle"
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "loot_table",
+          "weight": 3,
+          "value": "echoo_structure:chests/ocean_monument/food_common"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+		  "value": "echoo_structure:chests/ocean_monument/food_rare"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute as @a at @e[tag=ocean_monument,scores={monument_curse_active=1..}] if predicate echoo_structure:ocean_monumnet/monument_player_check run function echoo_structure:ocean_monument/curse/curse_effect
+schedule function echoo_structure:ocean_monument/curse/curse 1200t

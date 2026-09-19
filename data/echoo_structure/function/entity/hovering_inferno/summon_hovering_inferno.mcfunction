@@ -1,0 +1,1 @@
+summon blaze ~ ~ ~ {CustomNameVisible:0b,Team:"hidden_name",Tags:["hovering_inferno"],CustomName:"Hovering Inferno"}

@@ -1,0 +1,7 @@
+[
+  {
+    "processor_type": "minecraft:block_rot",
+    "integrity": 0.9,
+    "rottable_blocks": "#echoo_structure:mineshaft_rottable"
+  }
+]

@@ -1,0 +1,2 @@
+All .NBT structure files are licensed ALL RIGHTS RESERVED.
+All .JSON files are licensed under the MIT license.

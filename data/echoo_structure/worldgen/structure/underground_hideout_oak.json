@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#minecraft:has_structure/mineshaft",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "max_depth": 10,
+  "start_pool": "echoo_structure:underground_hideout/oak/main_rooms",
+  "size": 5,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "max_inclusive": {
+      "absolute": 45
+    },
+    "min_inclusive": {
+      "absolute": -45
+    }
+  },
+  "max_distance_from_center": 24,
+  "use_expansion_hack": false,
+  "terrain_adaption": "bury"
+  
+}

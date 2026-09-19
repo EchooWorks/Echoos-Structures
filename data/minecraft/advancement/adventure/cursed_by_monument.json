@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heart_of_the_sea"
+    },
+    "title": "Cursed by the Sea",
+    "description": "Get cursed by the Ocean Monument"
+  },
+  "parent": "adventure/the_monument",
+  "criteria": {
+    "cursed_by_monument": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

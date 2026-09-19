@@ -1,0 +1,30 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	    {
+          "type": "loot_table",
+          "weight": 12,
+          "value": "echoo_structure:chests/abandoned_mineshaft/ore_pile_suspicious_gravel_common"
+        },
+	    {
+          "type": "loot_table",
+          "weight": 8,
+          "value": "echoo_structure:chests/abandoned_mineshaft/ore_pile_suspicious_gravel_uncommon"
+        },
+	    {
+          "type": "loot_table",
+          "weight": 4,
+          "value": "echoo_structure:chests/abandoned_mineshaft/ore_pile_suspicious_gravel_rare"
+        },
+	    {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/abandoned_mineshaft/ore_pile_suspicious_gravel_epic"
+		}   
+      ]
+    }  
+  ]
+}

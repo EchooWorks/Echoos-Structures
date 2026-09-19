@@ -1,0 +1,120 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": {
+		  "min": 0,
+		  "max": 1
+	  },
+      "entries": [
+       {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:torch",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 3,
+				  "max": 9
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:redstone_torch",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:lantern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:arrow",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 4,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:brush",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 3
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:hopper",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:minecart",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+	  ]
+	}	
+  ]
+}

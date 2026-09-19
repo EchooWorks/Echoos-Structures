@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "wither_hound_bite": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 1
+          },
+          "taken": {
+            "min": 1
+          },
+          "source_entity": {
+            "minecraft:entity_tags": {
+              "all_of": [
+                "wither_hound"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "echoo_structure:entity/wither_hound/wither_hound_bite"
+  }
+}

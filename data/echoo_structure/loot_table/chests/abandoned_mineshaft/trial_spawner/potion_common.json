@@ -1,0 +1,70 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+       {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:glass_bottle",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+			{
+				"function": "set_components",
+				"components": {
+					"minecraft:potion_contents": {
+						"potion": "minecraft:water"
+					}
+				}
+			}
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            },
+			{
+				"function": "set_components",
+				"components": {
+					"minecraft:potion_contents": {
+						"potion": "minecraft:harming"
+					}
+				}
+			}
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:milk_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+	  ]
+	}	
+  ]
+}

@@ -1,0 +1,15 @@
+{
+	"name": "echoo_structure:very_wide_halls",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:ocean_monument/rooms/very_wide_hall1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/food_normal"
+        }
+      ]
+    },
+	 {
+      "rolls": 1,
+      "bonus_rolls": {
+		  "min": 0,
+		  "max": 1
+	  },
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 2,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/ore_normal"
+        },
+		{
+          "type": "loot_table",
+          "weight": 2,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/potion_normal"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/utility"
+        }
+      ]
+    }
+  ]
+}

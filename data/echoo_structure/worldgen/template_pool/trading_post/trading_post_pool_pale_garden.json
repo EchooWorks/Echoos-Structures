@@ -1,0 +1,35 @@
+{
+	"name": "echoo_structure:trading_post_pool_pale_garden",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:trading_post/pale_garden/trading_post_pale_white",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:trading_post/pale_garden/trading_post_pale_gray",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    },
+	
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:trading_post/pale_garden/trading_post_pale_orange",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }	
+	}
+  ]
+}

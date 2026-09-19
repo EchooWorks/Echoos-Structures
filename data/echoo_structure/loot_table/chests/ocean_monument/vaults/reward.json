@@ -1,0 +1,54 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "loot_table",
+          "weight": 4,
+          "value": "echoo_structure:chests/ocean_monument/rewards/reward_common"
+        },
+		{
+          "type": "loot_table",
+          "weight": 3,
+          "value": "echoo_structure:chests/ocean_monument/rewards/reward_rare"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/ocean_monument/rewards/reward_unique"
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "loot_table",
+          "weight": 4,
+          "value": "echoo_structure:chests/ocean_monument/resources/resource_rare"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/ocean_monument/resources/resource_epic"
+        }
+      ]
+    },
+	{
+      "rolls": 1,
+      "entries": [
+		{
+          "type": "loot_table",
+          "weight": 3,
+          "value": "echoo_structure:chests/ocean_monument/enchantments/enchantment"
+        },
+		{
+          "type": "empty",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

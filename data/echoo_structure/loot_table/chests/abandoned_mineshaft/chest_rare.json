@@ -1,0 +1,246 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		  "min": 2,
+		  "max": 3
+	  },
+      "entries": [
+	  {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:mushroom_stew",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 3
+			  }
+            }
+          ]
+        },
+       {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:golden_carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 4,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 4,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:minecart",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 1,
+				  "max": 2
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:lantern",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:activator_rail",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:powered_rail",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 5,
+				  "max": 9
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:clock",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:spyglass",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:sulfur_cube_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 6,
+				  "max": 9
+			  }
+            }
+          ],
+		  "conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"biomes": "minecraft:sulfur_caves"
+					}
+				}
+			]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:axolotl_bucket",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 6,
+				  "max": 9
+			  }
+            }
+          ],
+		  "conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"biomes": "minecraft:lush_caves"
+					}
+				}
+			]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:brush",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:copper_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:copper_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_shovel",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_pickaxe",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }  
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "assets": {
+    "angry": "echoo_structure:wither_hound",
+    "tame": "echoo_structure:wither_hound",
+    "wild": "echoo_structure:wither_hound"
+  },
+  "baby_assets": {
+    "angry": "echoo_structure:wither_hound_baby",
+    "tame": "echoo_structure:wither_hound_baby",
+    "wild": "echoo_structure:wither_hound_baby"
+  },
+  "spawn_conditions": [
+    {
+      "condition": {
+        "type": "minecraft:structure",
+        "structures": "echoo_structure:nether_fortress"
+      },
+      "priority": 1
+    }
+  ]
+}
+

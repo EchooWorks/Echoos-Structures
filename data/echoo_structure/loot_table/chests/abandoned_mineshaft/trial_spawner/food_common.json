@@ -1,0 +1,151 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		  "min": 1,
+		  "max": 2
+	  },
+      "bonus_rolls": {
+		  "min": 0,
+		  "max": 2
+	  },
+      "entries": [
+       {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potato",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:carrot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 2,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+				  "min": 3,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:glow_berries",
+          "functions": [
+				{
+				  "function": "set_count",
+				  "count": {
+					  "min": 4,
+					  "max": 6
+				  }
+				}
+			], 
+		  "conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"biomes": "#echoo_structure:has_glow_berries"
+					}
+				}
+			]
+     
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:apple",
+          "functions": [
+				{
+				  "function": "set_count",
+				  "count": {
+					  "min": 1,
+					  "max": 3
+				  }
+				}
+			], 
+		  "conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"biomes": "#echoo_structure:has_oak_leaves"
+					}
+				}
+			]
+     
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:sweet_berries",
+          "functions": [
+				{
+				  "function": "set_count",
+				  "count": {
+					  "min": 3,
+					  "max": 8
+				  }
+				}
+			], 
+		  "conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"biomes": "#echoo_structure:has_sweet_berry_bushes"
+					}
+				}
+			]
+     
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:melon_slice",
+          "functions": [
+				{
+				  "function": "set_count",
+				  "count": {
+					  "min": 3,
+					  "max": 8
+				  }
+				}
+			], 
+		  "conditions": [
+				{
+					"condition": "minecraft:location_check",
+					"predicate": {
+						"biomes": "#echoo_structure:has_melons"
+					}
+				}
+			]
+     
+        }
+	  ]
+	}	
+  ]
+}
