@@ -2,37 +2,7 @@
   "type": "minecraft:jigsaw",
   "biomes": "#minecraft:has_structure/mineshaft",
   "step": "underground_structures",
-  "spawn_overrides": {
-	  "monster": {
-      "bounding_box": "piece",
-      "spawns": [
-        {
-          "type": "minecraft:cave_spider",
-          "maxCount": 4,
-          "minCount": 1,
-          "weight": 4
-        },
-        {
-          "type": "minecraft:skeleton",
-          "maxCount": 4,
-          "minCount": 1,
-          "weight": 3
-        },
-        {
-          "type": "minecraft:spider",
-          "maxCount": 4,
-          "minCount": 2,
-          "weight": 4
-        },
-        {
-          "type": "minecraft:slime",
-          "maxCount": 2,
-          "minCount": 1,
-          "weight": 1
-        }
-      ]
-    }  
-  },
+  "spawn_overrides": {},
   "max_depth": 20,
   "start_pool": "echoo_structure:abandoned_mineshaft/oak/start_room_floors",
   "size": 20,

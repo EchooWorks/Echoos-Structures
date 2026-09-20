@@ -1,5 +1,4 @@
 {
-  "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
     "minecraft:equipment": {
@@ -8,7 +7,7 @@
         "components": {
           "minecraft:item_model": "echoo_structure:prismarine_core",
           "minecraft:item_name": "Prismarine Core",
-		  "minecraft:rarity": "rare"
+          "minecraft:rarity": "rare"
         }
       }
     },
@@ -17,5 +16,6 @@
         "sneak": true
       }
     }
-  }
+  },
+  "type": "minecraft:entity_properties"
 }

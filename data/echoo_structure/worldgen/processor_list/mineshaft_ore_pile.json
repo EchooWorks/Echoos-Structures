@@ -12,7 +12,7 @@
           "probability": 0.85
         },
         "output_state": {
-          "Name": "minecraft:stone"
+          "id": "minecraft:stone"
         }
       }
     ]
@@ -30,7 +30,7 @@
           "probability": 0.8
         },
         "output_state": {
-          "Name": "minecraft:coal_ore"
+          "id": "minecraft:coal_ore"
         }
       }
     ]
@@ -48,7 +48,7 @@
           "probability": 0.6
         },
         "output_state": {
-          "Name": "minecraft:copper_ore"
+          "id": "minecraft:copper_ore"
         }
       }
     ]
@@ -66,7 +66,7 @@
           "probability": 0.5
         },
         "output_state": {
-          "Name": "minecraft:lapis_ore"
+          "id": "minecraft:lapis_ore"
         }
       }
     ]
@@ -84,7 +84,7 @@
           "probability": 0.4
         },
         "output_state": {
-          "Name": "minecraft:iron_ore"
+          "id": "minecraft:iron_ore"
         }
       }
     ]
@@ -102,7 +102,7 @@
           "probability": 0.3
         },
         "output_state": {
-          "Name": "minecraft:redstone_ore"
+          "id": "minecraft:redstone_ore"
         }
       }
     ]
@@ -120,7 +120,7 @@
           "probability": 0.2
         },
         "output_state": {
-          "Name": "minecraft:emerald_ore"
+          "id": "minecraft:emerald_ore"
         }
       }
     ]
@@ -138,7 +138,7 @@
           "probability": 0.1
         },
         "output_state": {
-          "Name": "minecraft:gold_ore"
+          "id": "minecraft:gold_ore"
         }
       }
     ]
@@ -156,7 +156,7 @@
           "probability": 0.05
         },
         "output_state": {
-          "Name": "minecraft:diamond_ore"
+          "id": "minecraft:diamond_ore"
         }
       }
     ]

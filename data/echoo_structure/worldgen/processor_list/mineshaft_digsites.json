@@ -12,12 +12,12 @@
           "probability": 0.95
         },
         "output_state": {
-          "Name": "minecraft:cobweb"
+          "id": "minecraft:cobweb"
         }
       }
     ]
   },
-   {
+  {
     "processor_type": "minecraft:rule",
     "rules": [
       {
@@ -30,7 +30,7 @@
           "probability": 0.15
         },
         "output_state": {
-          "Name": "minecraft:cobweb"
+          "id": "minecraft:cobweb"
         }
       }
     ]
@@ -48,7 +48,7 @@
           "probability": 0.95
         },
         "output_state": {
-          "Name": "minecraft:cobweb"
+          "id": "minecraft:cobweb"
         }
       }
     ]
@@ -66,7 +66,7 @@
           "probability": 0.95
         },
         "output_state": {
-          "Name": "minecraft:cobweb"
+          "id": "minecraft:cobweb"
         }
       }
     ]
@@ -84,7 +84,7 @@
           "probability": 0.1
         },
         "output_state": {
-          "Name": "minecraft:cobweb"
+          "id": "minecraft:cobweb"
         }
       }
     ]
@@ -102,7 +102,7 @@
           "probability": 0.4
         },
         "output_state": {
-          "Name": "minecraft:gravel"
+          "id": "minecraft:gravel"
         }
       }
     ]
@@ -120,7 +120,7 @@
           "probability": 0.95
         },
         "output_state": {
-          "Name": "minecraft:air"
+          "id": "minecraft:air"
         }
       }
     ]
@@ -138,7 +138,7 @@
           "probability": 0.05
         },
         "output_state": {
-          "Name": "minecraft:cobweb"
+          "id": "minecraft:cobweb"
         }
       }
     ]

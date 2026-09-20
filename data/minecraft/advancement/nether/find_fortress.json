@@ -3,17 +3,15 @@
   "criteria": {
     "fortress": {
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "minecraft:location": {
-                "structures": "#echoo_structure:nether_fortress"
-              }
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:location": {
+              "structures": "#echoo_structure:nether_fortress"
             }
           }
-        ]
+        }
       },
       "trigger": "minecraft:location"
     }
@@ -34,5 +32,5 @@
       "fortress"
     ]
   ],
-  "sends_telemetry_event": true
+  "sends_telemetry_event": false
 }

@@ -1,5 +1,4 @@
 {
-  "condition": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
     "minecraft:distance": {
@@ -8,5 +7,6 @@
         "max": 12
       }
     }
-  }
+  },
+  "type": "minecraft:entity_properties"
 }
