@@ -9,13 +9,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:diamond_spear",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:enchantments": {
                   "unbreaking": 3
@@ -28,13 +28,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:diamond_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:enchantments": {
                   "sharpness": 3,
@@ -48,13 +48,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:trident",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:enchantments": {
                   "loyalty": 3,
@@ -75,13 +75,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:diamond_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:redstone",
@@ -106,13 +106,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:diamond_leggings",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:redstone",
@@ -137,13 +137,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:diamond_chestplate",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:redstone",
@@ -168,13 +168,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:diamond_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:redstone",

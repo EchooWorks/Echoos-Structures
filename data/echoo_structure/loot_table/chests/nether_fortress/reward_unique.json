@@ -1,0 +1,58 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:ancient_debris",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }, 
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:enchanted_golden_apple",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },     		
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:rib_armor_trim_smithing_template",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "loot_table",
+          "weight": 4,
+          "value": "echoo_structure:chests/nether_fortress/enchantments",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "empty",
+          "weight": 7
+        }		
+      ]
+    }
+  ]
+}

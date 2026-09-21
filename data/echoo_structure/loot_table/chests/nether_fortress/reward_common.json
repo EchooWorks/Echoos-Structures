@@ -1,0 +1,100 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		  "type": "minecraft:uniform",
+		  "min": 2,
+		  "max": 3
+	  },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "minecraft:uniform",
+				  "min": 2,
+				  "max": 6
+			  }
+            }
+          ]
+        }, 
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "minecraft:uniform",
+				  "min": 2,
+				  "max": 4
+			  }
+            }
+          ]
+        },     		
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:crying_obsidian",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "minecraft:uniform",
+				  "min": 1,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:nether_wart",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "minecraft:uniform",
+				  "min": 1,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:magma_cream",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "minecraft:uniform",
+				  "min": 1,
+				  "max": 4
+			  }
+            }
+          ]
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/nether_fortress/equipment_common",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }	
+      ]
+    }
+  ]
+}

@@ -1,100 +1,145 @@
 {
-  "type": "equipment",
+  "type": "chest",
   "pools": [
     {
       "rolls": 1,
-      "bonus_rolls": 0,
       "entries": [
         {
           "type": "item",
-          "weight": 4,
-          "name": "minecraft:stone_pickaxe",
+          "weight": 1,
+          "name": "minecraft:iron_sword",
           "modifier": [
             {
               "type": "set_count",
-              "count": 1
-            },
-            {
-              "type": "set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:unbreaking": 1,
-				  "minecraft:efficiency": 2
-                }
-              }
+              "count": 1	  
             }
           ]
-        },
+        },     
 		{
           "type": "item",
-          "weight": 3,
-          "name": "minecraft:copper_pickaxe",
+          "weight": 1,
+          "name": "minecraft:iron_axe",
           "modifier": [
             {
               "type": "set_count",
               "count": 1
-            },
-            {
-              "type": "set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:unbreaking": 2,
-				  "minecraft:efficiency": 2
-                }
-              }
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "weight": 2,
-          "name": "minecraft:iron_pickaxe",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            },
-            {
-              "type": "set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:unbreaking": 2,
-				  "minecraft:efficiency": 3
-                }
-              }
             }
           ]
         },
 		{
           "type": "item",
           "weight": 1,
-          "name": "minecraft:diamond_pickaxe",
+          "name": "minecraft:iron_spear",
           "modifier": [
             {
               "type": "set_count",
               "count": 1
-            },
-            {
-              "type": "set_components",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:unbreaking": 3,
-				  "minecraft:efficiency": 4
-                }
-              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
+        },
+		{
           "type": "item",
           "weight": 1,
-          "name": "minecraft:leather_helmet",
+          "name": "minecraft:iron_horse_armor",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_sword",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1	  
+            }
+          ]
+        },     
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_axe",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_spear",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_horse_armor",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:copper_horse_armor",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_helmet",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_chestplate",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_leggings",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_boots",
           "modifier": [
             {
               "type": "set_count",
@@ -116,85 +161,7 @@
 		{
           "type": "item",
           "weight": 1,
-          "name": "minecraft:iron_helmet",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:golden_helmet",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-	{
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:leather_chestplate",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "weight": 1,
           "name": "minecraft:chainmail_chestplate",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_chestplate",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:golden_chestplate",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        }
-      ]
-    },
-	{
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:leather_leggings",
           "modifier": [
             {
               "type": "set_count",
@@ -216,18 +183,7 @@
 		{
           "type": "item",
           "weight": 1,
-          "name": "minecraft:iron_leggings",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:golden_leggings",
+          "name": "minecraft:chainmail_boots",
           "modifier": [
             {
               "type": "set_count",
@@ -236,56 +192,6 @@
           ]
         }
       ]
-    },
-	{
-      "rolls": 1,
-      "bonus_rolls": 0,
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:leather_boots",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:chainmail_boots",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_boots",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        },
-		{
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:golden_boots",
-          "modifier": [
-            {
-              "type": "set_count",
-              "count": 1
-            }
-          ]
-        }
-	  ]
-	}
+    }
   ]
 }

@@ -9,13 +9,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:stick",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:enchantment_glint_override": true,
                 "minecraft:item_model": "echoo_structure:drowned_mage_staff"
@@ -33,13 +33,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:golden_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:amethyst",
@@ -63,13 +63,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:golden_leggings",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:amethyst",
@@ -93,13 +93,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:golden_chestplate",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:amethyst",
@@ -123,13 +123,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:golden_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:amethyst",

@@ -1,0 +1,91 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_nautilus_armor",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_apple",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:enchanted_golden_apple",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "loot_table",
+					"weight": 1,
+					"value": "echoo_structure:chests/ominous_bottle",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:heart_of_the_sea",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:trident",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:angler_pottery_sherd",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

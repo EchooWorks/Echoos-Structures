@@ -1,0 +1,538 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		"type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+		"type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:turtle_egg",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:nautilus_shell",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:wet_sponge",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:gold_nugget",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:iron_nugget",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:copper_nugget",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:gold_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:iron_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:copper_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:golden_nautilus_armor",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:iron_nautilus_armor",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:copper_nautilus_armor",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+		"type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+		"type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:suspicious_stew",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:suspicious_stew",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:suspicious_stew",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:suspicious_stew",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:tropical_fish",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:salmon",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:cod",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:kelp",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            },
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:invisibility"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            },
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:turtle_master"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            },
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water_breathing"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            },
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strength"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+		"type": "minecraft:uniform",
+        "min": 4,
+        "max": 6
+      },
+      "bonus_rolls": {
+		"type": "minecraft:uniform",
+        "min": 0,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:glow_ink_sac",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:ink_sac",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:sand",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gravel",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:prismarine_crystals",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:prismarine_shard",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bone_meal",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 3,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:pufferfish",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:string",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:turtle_scute",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:bone",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:sea_pickle",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:rotten_flesh",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

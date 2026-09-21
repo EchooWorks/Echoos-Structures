@@ -9,13 +9,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:copper_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:emerald",
@@ -39,13 +39,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:copper_leggings",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:emerald",
@@ -69,13 +69,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:copper_chestplate",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:emerald",
@@ -99,13 +99,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:copper_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:emerald",

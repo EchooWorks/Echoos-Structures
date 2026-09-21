@@ -1,0 +1,253 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": {
+		  "type": "uniform",
+		  "min": 2,
+		  "max": 3
+	  },
+      "entries": [
+	  {
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:mushroom_stew",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 1,
+				  "max": 3
+			  }
+            }
+          ]
+        },
+       {
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:golden_carrot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 2,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:gold_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 4,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:emerald",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 4,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:minecart",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 1,
+				  "max": 2
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 4,
+          "name": "minecraft:lantern",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 2,
+				  "max": 8
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:activator_rail",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 2,
+				  "max": 6
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 3,
+          "name": "minecraft:powered_rail",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 5,
+				  "max": 9
+			  }
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:clock",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:spyglass",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:sulfur_cube_bucket",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 6,
+				  "max": 9
+			  }
+            }
+          ],
+		  "condition": {
+				"type": "minecraft:location_check",
+				"predicate": {
+				"biomes": "minecraft:sulfur_caves"
+				}
+			}
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:axolotl_bucket",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				  "type": "uniform",
+				  "min": 6,
+				  "max": 9
+			  }
+            }
+          ],
+		  "condition": {
+				"type": "minecraft:location_check",
+				"predicate": {
+				"biomes": "minecraft:lush_caves"
+				}
+			}
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:brush",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:copper_shovel",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:copper_pickaxe",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_shovel",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_pickaxe",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }  
+  ]
+}

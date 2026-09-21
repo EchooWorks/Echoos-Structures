@@ -1,0 +1,71 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 6,
+					"name": "minecraft:prismarine_shard",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+							"type": "minecraft:uniform",
+							"min": 4,
+							"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:prismarine_crystals",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "minecraft:uniform",
+							"min": 2,
+							"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:nautilus_shell",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}				
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:wet_sponge",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 7
+				}				
+			]
+		}
+	]
+}

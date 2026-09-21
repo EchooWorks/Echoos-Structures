@@ -1,0 +1,195 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:sea_lantern",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:prismarine_shard",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:prismarine_crystals",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_apple",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            },
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_strength"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            },
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:strong_healing"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:potion",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            },
+            {
+              "type": "set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:water_breathing"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_nugget",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:copper_nugget",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:copper_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": {
+				"type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:wet_sponge",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	  {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:copper_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+       {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_ingot",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:emerald",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:raw_copper",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:raw_gold",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:raw_iron",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }  
+  ]
+}

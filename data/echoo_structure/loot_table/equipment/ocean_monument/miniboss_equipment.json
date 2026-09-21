@@ -9,13 +9,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:iron_spear",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:enchantments": {
                   "unbreaking": 1
@@ -28,13 +28,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:iron_sword",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:enchantments": {
                   "sharpness": 1,
@@ -48,13 +48,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:trident",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:enchantments": {
                   "loyalty": 1,
@@ -74,13 +74,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:iron_boots",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:diamond",
@@ -104,13 +104,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:iron_leggings",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:diamond",
@@ -134,13 +134,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:iron_chestplate",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:diamond",
@@ -164,13 +164,13 @@
           "type": "item",
           "weight": 1,
           "name": "minecraft:iron_helmet",
-          "functions": [
+          "modifier": [
             {
-              "function": "set_count",
+              "type": "set_count",
               "count": 1
             },
             {
-              "function": "set_components",
+              "type": "set_components",
               "components": {
                 "minecraft:trim": {
                   "material": "minecraft:diamond",

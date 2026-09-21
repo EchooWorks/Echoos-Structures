@@ -1,0 +1,65 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+	  {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:copper_nugget",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+       {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_nugget",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:gold_nugget",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:lapis_lazuli",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:redstone",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }  
+  ]
+}

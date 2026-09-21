@@ -1,0 +1,31 @@
+{
+  "type": "chest",
+  "pools": [
+	{
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 4,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/ore_common"
+        },
+		{
+          "type": "loot_table",
+          "weight": 3,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/ore_uncommon"
+        },
+		{
+          "type": "loot_table",
+          "weight": 2,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/ore_rare"
+        },
+		{
+          "type": "loot_table",
+          "weight": 1,
+          "value": "echoo_structure:chests/abandoned_mineshaft/trial_spawner/ore_very_rare"
+        }
+      ]
+	}
+  ]
+}

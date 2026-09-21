@@ -1,0 +1,47 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_sword",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1	  
+            }
+          ]
+        },     
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:stone_axe",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:shield",
+          "modifier": [
+            {
+              "type": "set_count",
+              "count": 1
+            }
+          ]
+        },
+		{
+          "type": "empty",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
