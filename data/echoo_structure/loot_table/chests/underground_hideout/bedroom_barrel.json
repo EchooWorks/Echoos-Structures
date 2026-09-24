@@ -1,0 +1,198 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": {
+				"type": "uniform",
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:bundle",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:bucket",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:map",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:flint_and_steel",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:brush",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:clock",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "uniform",
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:paper",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 2,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:bone",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:string",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:stick",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 2,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:leather",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:torch",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 2,
+								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:copper_torch",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
