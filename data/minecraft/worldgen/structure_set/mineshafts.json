@@ -1,20 +1,24 @@
 {
   "placement": {
     "type": "minecraft:random_spread",
-    "frequency": 0.003,
+    "frequency": 0.004,
     "frequency_reduction_method": "legacy_type_3",
     "salt": 0,
-    "separation": 1,
-    "spacing": 2
+    "separation": 0,
+    "spacing": 1
   },
   "structures": [
     {
       "structure": "echoo_structure:abandoned_mineshaft_oak",
-      "weight": 1
+      "weight": 2
     },
 	{
       "structure": "echoo_structure:underground_hideout_oak",
-      "weight": 10
+      "weight": 2
+    },
+	{
+      "structure": "echoo_structure:underground_hideout_deepslate",
+      "weight": 2
     }
   ]
 }

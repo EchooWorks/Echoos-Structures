@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:lush_caves",
+	"minecraft:jungle",
+	"minecraft:sparse_jungle",
+	"minecraft:bamboo_jungle",
+	"minecraft:desert",
+	"minecraft:warm_ocean",
+	"minecraft:savanna",
+	"minecraft:windswept_savanna",
+	"minecraft:savanna_plateau",
+	"minecraft:badlands",
+	"minecraft:wooded_badlands",
+	"minecraft:eroded_badlands"
+  ]
+}

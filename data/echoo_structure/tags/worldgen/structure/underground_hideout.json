@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+	"echoo_structure:underground_hideout_deepslate",
+	"echoo_structure:underground_hideout_jungle",
+	"echoo_structure:underground_hideout_oak",
+	"echoo_structure:underground_hideout_spruce"
+	]
+}
