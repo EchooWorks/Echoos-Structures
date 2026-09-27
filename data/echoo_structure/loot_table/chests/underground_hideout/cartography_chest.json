@@ -1,0 +1,225 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:recovery_compass",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "minecraft:compass",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 8,
+					"name": "minecraft:spyglass",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:buried_ancient_city_map",
+					"modifier": [
+						{
+							"type": "minecraft:exploration_map",
+							"decoration": "minecraft:ancient_city",
+							"destination": "#minecraft:on_ancient_city_maps"
+						},
+						{
+							"type": "minecraft:filtered",
+							"item_filter": {
+								"predicates": {
+									"minecraft:map_id": {}
+								}
+							},
+							"on_fail": {
+								"type": "minecraft:discard"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:buried_mineshaft_map",
+					"modifier": [
+						{
+							"type": "minecraft:exploration_map",
+							"decoration": "minecraft:mineshaft",
+							"destination": "#minecraft:on_mineshaft_maps"
+						},
+						{
+							"type": "minecraft:filtered",
+							"item_filter": {
+								"predicates": {
+									"minecraft:map_id": {}
+								}
+							},
+							"on_fail": {
+								"type": "minecraft:discard"
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:buried_trial_chambers_map",
+					"modifier": [
+						{
+							"type": "minecraft:exploration_map",
+							"decoration": "minecraft:trial_chambers",
+							"destination": "#minecraft:on_buried_trial_chambers_maps"
+						},
+						{
+							"type": "minecraft:filtered",
+							"item_filter": {
+								"predicates": {
+									"minecraft:map_id": {}
+								}
+							},
+							"on_fail": {
+								"type": "minecraft:discard"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"value": "echoo_structure:chests/underground_hideout/junk",
+					"weight": 1,
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "uniform",
+				"min": 4,
+				"max": 12
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:bundle",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "minecraft:copper_nugget",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "minecraft:iron_nugget",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:copper_ingot",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:iron_ingot",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:redstone",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 5,
+					"name": "minecraft:paper",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 4,
+					"name": "minecraft:map",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

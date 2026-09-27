@@ -1,0 +1,293 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": {
+				"type": "uniform",
+				"min": 4,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:stick",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:bone",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:string",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": {
+								"type": "uniform",
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:paper",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:sulfur_spike",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:pointed_dripstone",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:clay_ball",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "uniform",
+				"min": 4,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:candle",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:copper_torch",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:torch",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:soul_torch",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:coal",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:copper_nugget",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:iron_nugget",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:gold_nugget",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "uniform",
+				"min": 4,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:bowl",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:rotten_flesh",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:spider_eye",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:red_mushroom",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:brown_mushroom",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:glow_berries",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:sweet_berries",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:shelf_mushroom",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}

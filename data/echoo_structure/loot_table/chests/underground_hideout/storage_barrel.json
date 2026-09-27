@@ -1,0 +1,122 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": {
+				"type": "uniform",
+				"min": 6,
+				"max": 12
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:potato",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:baked_potato",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:carrot",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_carrot",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:bread",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:beetroot",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:beetroot_soup",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:glow_berries",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:sweet_berries",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "loot_table",
+					"value": "echoo_structure:chests/underground_hideout/junk"
+				}
+			]
+		}
+	]
+}

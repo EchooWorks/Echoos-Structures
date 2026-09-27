@@ -1,0 +1,357 @@
+{
+	"type": "chest",
+	"pools": [
+		{
+			"rolls": {
+				"type": "uniform",
+				"min": 4,
+				"max": 8
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:charcoal",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:coal",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:amethyst_shard",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:emerald",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:copper_nugget",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:iron_nugget",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:gold_nugget",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:stone_pickaxe",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						},
+						{
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "uniform",
+								"min": 5,
+								"max": 29
+							},
+							"options": "#echoo_structure:in_hideout_chests"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:stone_shovel",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						},
+						{
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "uniform",
+								"min": 5,
+								"max": 29
+							},
+							"options": "#echoo_structure:in_hideout_chests"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:copper_pickaxe",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						},
+						{
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "uniform",
+								"min": 5,
+								"max": 29
+							},
+							"options": "#echoo_structure:in_hideout_chests"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:copper_shovel",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						},
+						{
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "uniform",
+								"min": 5,
+								"max": 29
+							},
+							"options": "#echoo_structure:in_hideout_chests"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:golden_pickaxe",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						},
+						{
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "uniform",
+								"min": 5,
+								"max": 29
+							},
+							"options": "#echoo_structure:in_hideout_chests"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:golden_shovel",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						},
+						{
+							"type": "minecraft:enchant_with_levels",
+							"levels": {
+								"type": "uniform",
+								"min": 5,
+								"max": 29
+							},
+							"options": "#echoo_structure:in_hideout_chests"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:bucket",
+					"modifier": [
+						{
+						"type": "set_count",
+						"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:sulfur_cube_bucket",
+					"modifier": [
+						{
+						"type": "set_count",
+						"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:axolotl_bucket",
+					"modifier": [
+						{
+						"type": "set_count",
+						"count": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"type": "uniform",
+				"min": 2,
+				"max": 4
+			},
+			"entries": [
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:clock",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:flint_and_steel",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:bundle",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 1,
+					"name": "minecraft:brush",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:candle",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 3,
+					"name": "minecraft:book",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:lantern",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:copper_lantern",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				},
+				{
+					"type": "item",
+					"weight": 2,
+					"name": "minecraft:soul_lantern",
+					"modifier": [
+						{
+							"type": "set_count",
+							"count": 1
+						}
+					]
+				}
+			]
+		}
+	]
+}
