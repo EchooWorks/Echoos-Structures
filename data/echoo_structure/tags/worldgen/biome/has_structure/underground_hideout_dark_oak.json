@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:dark_forest",
+	"minecraft:dripstone_caves",
+	"minecraft:badlands",
+	"minecraft:wooded_badlands",
+	"minecraft:eroded_badlands"
+  ]
+}

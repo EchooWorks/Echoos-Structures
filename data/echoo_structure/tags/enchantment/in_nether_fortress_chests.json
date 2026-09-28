@@ -1,0 +1,20 @@
+{
+	"values": [
+		"#minecraft:curse",
+		"minecraft:protection",
+		"minecraft:projectile_protection",
+		"minecraft:fire_protection",
+		"minecraft:blast_protection",
+		"minecraft:unbreaking",
+		"minecraft:looting",
+		"minecraft:knockback",
+		"minecraft:efficiency",
+		"minecraft:power",
+		"minecraft:punch",
+		"minecraft:fire_aspect",
+		"minecraft:sharpness",
+		"minecraft:smite",
+		"minecraft:sweeping_edge",
+		"minecraft:infinity"
+	]
+}

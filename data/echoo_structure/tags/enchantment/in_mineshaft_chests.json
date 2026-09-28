@@ -1,0 +1,20 @@
+{
+	"values": [
+		"#minecraft:curse",
+		"minecraft:fortune",
+		"minecraft:silk_touch",
+		"minecraft:unbreaking",
+		"minecraft:efficiency",
+		"minecraft:bane_of_arthropods",
+		"minecraft:smite",
+		"minecraft:sharpness",
+		"minecraft:knockback",
+		"minecraft:fire_aspect",
+		"minecraft:thorns",
+		"minecraft:looting",
+		"minecraft:lunge",
+		"minecraft:protection",
+		"minecraft:projectile_protection",
+		"minecraft:blast_protection"
+	]
+}
