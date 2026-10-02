@@ -65,7 +65,13 @@
 							"type": "set_count",
 							"count": 1
 						}
-					]
+					],
+					"condition": {
+						"type": "minecraft:location_check",
+							"predicate": {
+								"biomes": "#echoo_structure:has_loot/sulfur"
+							}
+					}
 				},
 				{
 					"type": "item",
@@ -76,7 +82,13 @@
 							"type": "set_count",
 							"count": 1
 						}
-					]
+					],
+					"condition": {
+						"type": "minecraft:location_check",
+							"predicate": {
+								"biomes": "#echoo_structure:has_loot/dripstone"
+							}
+					}
 				},
 				{
 					"type": "item",
@@ -87,7 +99,13 @@
 							"type": "set_count",
 							"count": 1
 						}
-					]
+					],
+					"condition": {
+						"type": "minecraft:location_check",
+							"predicate": {
+								"biomes": "#echoo_structure:has_loot/clay_ball"
+							}
+					}
 				},
 				{
 					"type": "empty",
@@ -263,7 +281,13 @@
 							"type": "set_count",
 							"count": 1
 						}
-					]
+					],
+					"condition": {
+						"type": "minecraft:location_check",
+							"predicate": {
+								"biomes": "#echoo_structure:has_loot/glow_berries"
+							}
+					}
 				},
 				{
 					"type": "item",
@@ -274,7 +298,13 @@
 							"type": "set_count",
 							"count": 1
 						}
-					]
+					],
+					"condition": {
+						"type": "minecraft:location_check",
+							"predicate": {
+								"biomes": "#echoo_structure:has_loot/sweet_berries"
+							}
+					}
 				},
 				{
 					"type": "item",
@@ -285,7 +315,13 @@
 							"type": "set_count",
 							"count": 1
 						}
-					]
+					],
+					"condition": {
+						"type": "minecraft:location_check",
+							"predicate": {
+								"biomes": "#echoo_structure:has_loot/shelf_mushroom"
+							}
+					}
 				}
 			]
 		}

@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
 	"minecraft:mangrove_swamp",
-	"minecraft:swamp"
+	"minecraft:swamp",
+	"minecraft:savanna",
+	"minecraft:windswept_savanna"
   ]
 }

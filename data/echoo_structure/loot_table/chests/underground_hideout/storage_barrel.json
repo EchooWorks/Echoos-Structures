@@ -94,7 +94,13 @@
 							"type": "set_count",
 							"count": 1
 						}
-					]
+					],
+					"condition": {
+						"type": "minecraft:location_check",
+							"predicate": {
+								"biomes": "#echoo_structure:has_loot/glow_berries"
+							}
+					}
 				},
 				{
 					"type": "item",
@@ -105,7 +111,13 @@
 							"type": "set_count",
 							"count": 1
 						}
-					]
+					],
+					"condition": {
+						"type": "minecraft:location_check",
+							"predicate": {
+								"biomes": "#echoo_structure:has_loot/sweet_berries"
+							}
+					}
 				}
 			]
 		},

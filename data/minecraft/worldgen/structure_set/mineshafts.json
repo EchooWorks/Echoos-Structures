@@ -10,7 +10,7 @@
   "structures": [
 		{
 		  "structure": "echoo_structure:abandoned_mineshaft_oak",
-		  "weight": 10
+		  "weight": 2
 		},
 		{
 		  "structure": "echoo_structure:underground_hideout_birch",
@@ -42,35 +42,35 @@
 		},
 		{
 		  "structure": "echoo_structure:underground_hideout_oak",
-		  "weight": 2
+		  "weight": 1
 		},
 		{
 		  "structure": "echoo_structure:underground_hideout_pale_oak",
-		  "weight": 3
+		  "weight": 4
 		},
 		{
 		  "structure": "echoo_structure:underground_hideout_poplar",
-		  "weight": 2
+		  "weight": 4
 		},
 		{
 		  "structure": "echoo_structure:underground_hideout_red_sandstone",
-		  "weight": 2
+		  "weight": 1
 		},
 		{
 		  "structure": "echoo_structure:underground_hideout_sandstone",
-		  "weight": 1
+		  "weight": 2
 		},
 		{
 		  "structure": "echoo_structure:underground_hideout_spruce",
-		  "weight": 1
+		  "weight": 2
 		},
 		{
 		  "structure": "echoo_structure:underground_hideout_sulfur",
-		  "weight": 1
+		  "weight": 2
 		},
 		{
 		  "structure": "echoo_structure:underground_hideout_tuff",
-		  "weight": 1
+		  "weight": 2
 		}
 	]
 }
