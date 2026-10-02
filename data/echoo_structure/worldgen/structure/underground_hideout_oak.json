@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#minecraft:has_structure/mineshaft",
+  "biomes": "#echoo_structure:has_structure/underground_hideout_oak",
   "step": "underground_structures",
   "spawn_overrides": {},
   "max_depth": 10,

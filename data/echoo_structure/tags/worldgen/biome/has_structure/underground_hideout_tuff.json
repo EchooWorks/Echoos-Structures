@@ -1,4 +1,8 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+	"minecraft:dripstone_caves",
+	"minecraft:sulfur_caves",
+	"minecraft:lush_caves"
+  ]
 }
