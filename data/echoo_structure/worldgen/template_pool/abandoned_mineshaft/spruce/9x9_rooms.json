@@ -1,0 +1,33 @@
+{
+	"name": "echoo_structure:9x9_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/oak/rooms/9x9_spider_room",
+        "projection": "rigid",
+        "processors": "echoo_structure:mineshaft_spider_tunnels"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/oak/rooms/9x9_ore_pile_room",
+        "projection": "rigid",
+        "processors": "echoo_structure:mineshaft_tunnels"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/oak/rooms/9x9_wood_pile_room",
+        "projection": "rigid",
+        "processors": "echoo_structure:mineshaft_tunnels"
+      }
+    }
+  ]
+}

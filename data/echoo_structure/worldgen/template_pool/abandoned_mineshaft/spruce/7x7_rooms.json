@@ -1,0 +1,24 @@
+{
+	"name": "echoo_structure:7x7_rooms",
+  "fallback": "minecraft:empty",
+  "elements": [
+	{
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/oak/rooms/7x7_minecart_room",
+        "projection": "rigid",
+        "processors": "echoo_structure:mineshaft_tunnels"
+      }
+    },
+	{
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "echoo_structure:abandoned_mineshaft/oak/rooms/7x7_undead_miner_room",
+        "projection": "rigid",
+        "processors": "echoo_structure:mineshaft_tunnels"
+      }
+    }
+  ]
+}
